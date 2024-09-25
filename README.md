@@ -11,36 +11,43 @@ getAllEmployees()
 
     output - list of employees
     description - this should return all employees
+    Endpoint - GET https://localhost:8080/employees
 
 getEmployeesByNameSearch()
 
     output - list of employees
     description - this should return all employees whose name contains or matches the string input provided
+    Endpoint - GET https://localhost:8080/employees/search/{searchString}
 
 getEmployeeById(string id)
 
     output - employee
     description - this should return a single employee
+    Endpoint - GET https://localhost:8080/employees/{id}
 
 getHighestSalaryOfEmployees()
 
     output - integer of the highest salary
     description -  this should return a single integer indicating the highest salary of all employees
+    Endpoint - GET https://localhost:8080/employees/highestSalary
 
 getTop10HighestEarningEmployeeNames()
 
     output - list of employees
     description -  this should return a list of the top 10 employees based off of their salaries
+    Endpoint - GET https://localhost:8080/employees/topTenHighestEarningEmployeeNames
 
 createEmployee(string name, string salary, string age)
 
     output - string of the status (i.e. success)
     description -  this should return a status of success or failed based on if an employee was created
+    Endpoint - POST https://localhost:8080/employees with request data {name: "John", salary: 21122, age: 21}
 
 deleteEmployee(String id)
 
     output - the name of the employee that was deleted
     description - this should delete the employee with specified id given
+    Endpoint - DELETE https://localhost:8080/employees/{id}
 
 ### External endpoints from base url
 #### This section will outline all available endpoints and their request and response models from https://dummy.restapiexample.com
