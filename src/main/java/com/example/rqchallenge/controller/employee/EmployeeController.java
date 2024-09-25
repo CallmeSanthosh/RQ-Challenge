@@ -21,56 +21,55 @@ import com.example.rqchallenge.service.employee.IEmployeeService;
 
 @RestController
 @RequestMapping("/employees")
-public class EmployeeController implements IEmployeeController{
-	
+public class EmployeeController implements IEmployeeController {
+
 	@Autowired
 	private IEmployeeService employeeService;
-	
-    private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
+
+	private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 
 	@GetMapping()
-    public ResponseEntity<List<Employee>> getAllEmployees() {
-		
+	public ResponseEntity<List<Employee>> getAllEmployees() {
+
 		List<Employee> allEmployees = employeeService.getAllEmployees();
 		return ResponseEntity.ok(allEmployees);
 	}
 
-    @GetMapping("/search/{searchString}")
-    public ResponseEntity<List<Employee>> getEmployeesByNameSearch(@PathVariable String searchString) {
-    	List<Employee> matchingNames = employeeService.getEmployeeByNameSearch(searchString);
-    	System.out.println("allEmployees : "+ matchingNames);
+	@GetMapping("/search/{searchString}")
+	public ResponseEntity<List<Employee>> getEmployeesByNameSearch(@PathVariable String searchString) {
+		List<Employee> matchingNames = employeeService.getEmployeeByNameSearch(searchString);
+		System.out.println("allEmployees : " + matchingNames);
 		return ResponseEntity.ok(matchingNames);
-    }
+	}
 
-    @GetMapping("/{id}")
-    public ResponseEntity<Employee> getEmployeeById(@PathVariable String id) {
-    	Employee employee = employeeService.getEmployeeById(id);
-    	return ResponseEntity.ok(employee);
-    }
+	@GetMapping("/{id}")
+	public ResponseEntity<Employee> getEmployeeById(@PathVariable String id) {
+		Employee employee = employeeService.getEmployeeById(id);
+		return ResponseEntity.ok(employee);
+	}
 
-    @GetMapping("/highestSalary")
-    public ResponseEntity<Integer> getHighestSalaryOfEmployees() {
-    	Integer highestSalary = employeeService.getHighestSalaryOfEmployees();
-    	return ResponseEntity.ok(highestSalary);
-    }	
+	@GetMapping("/highestSalary")
+	public ResponseEntity<Integer> getHighestSalaryOfEmployees() {
+		Integer highestSalary = employeeService.getHighestSalaryOfEmployees();
+		return ResponseEntity.ok(highestSalary);
+	}
 
-    @GetMapping("/topTenHighestEarningEmployeeNames")
-    public ResponseEntity<List<String>> getTopTenHighestEarningEmployeeNames() {
-    	List<String> topTenEmployeeNames = employeeService.getTopTenHighestEarningEmployeeNames();
-    	return ResponseEntity.ok(topTenEmployeeNames);
-    }
+	@GetMapping("/topTenHighestEarningEmployeeNames")
+	public ResponseEntity<List<String>> getTopTenHighestEarningEmployeeNames() {
+		List<String> topTenEmployeeNames = employeeService.getTopTenHighestEarningEmployeeNames();
+		return ResponseEntity.ok(topTenEmployeeNames);
+	}
 
-    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE,
-            produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Employee> createEmployee(@RequestBody Map<String, Object> employeeInput) {
-    	Employee Employee = employeeService.createEmployee(employeeInput);
-    	return ResponseEntity.ok(Employee);
-    }
+	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Employee> createEmployee(@RequestBody Map<String, Object> employeeInput) {
+		Employee Employee = employeeService.createEmployee(employeeInput);
+		return ResponseEntity.ok(Employee);
+	}
 
-    @DeleteMapping("{id}")
-    public ResponseEntity<String> deleteEmployeeById(@PathVariable String id) {
-    	String employeeName = employeeService.deleteEmployeeById(id);
-    	return ResponseEntity.ok(employeeName);
-    }
+	@DeleteMapping("{id}")
+	public ResponseEntity<String> deleteEmployeeById(@PathVariable String id) {
+		String employeeName = employeeService.deleteEmployeeById(id);
+		return ResponseEntity.ok(employeeName);
+	}
 
 }

@@ -8,32 +8,33 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class ErrorResponse {
 
-    @JsonProperty("message")
-    private String message;
+	@JsonProperty("message")
+	private String message;
 
-    @JsonProperty("status")
-    private String status;
+	@JsonProperty("status")
+	private String status;
 
-    public ErrorResponse() {}
+	public ErrorResponse() {
+	}
 
-    public ErrorResponse(String message, String status) {
-        this.message = message;
-        this.status = status;
-    }
+	public ErrorResponse(String message, String status) {
+		this.message = message;
+		this.status = status;
+	}
 
-    public String getMessage() {
-        return message;
-    }
+	public String getMessage() {
+		return message;
+	}
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
+	public void setMessage(String message) {
+		this.message = message;
+	}
 
-    public String getStatus() {
-        return status;
-    }
+	public String getStatus() {
+		return status;
+	}
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
+	public void setStatus(String status) {
+		this.status = status;
+	}
 }

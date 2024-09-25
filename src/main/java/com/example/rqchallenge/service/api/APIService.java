@@ -18,24 +18,24 @@ public class APIService implements IAPIService {
 
 	@Autowired
 	private RestTemplate restTemplate;
-	
-    @Value("${api.base.url}")
-    private String apiBaseUrl;
-    
-    private static final Logger logger = LoggerFactory.getLogger(APIService.class);
-	
+
+	@Value("${api.base.url}")
+	private String apiBaseUrl;
+
+	private static final Logger logger = LoggerFactory.getLogger(APIService.class);
+
 	public ResponseEntity<JsonNode> getRequest(String path) {
 		logger.info("GET Request: {}{}", apiBaseUrl, path);
 		return restTemplate.getForEntity(apiBaseUrl + path, JsonNode.class);
 	}
-	
+
 	public ResponseEntity<JsonNode> postRequest(String path, Map<String, Object> requestData) {
 		logger.info("POST Request: {}{}", apiBaseUrl, path);
 		return restTemplate.postForEntity(apiBaseUrl + path, requestData, JsonNode.class);
 	}
-	
+
 	public ResponseEntity<JsonNode> deleteRequest(String path) {
 		logger.info("DELETE Request: {}{}", apiBaseUrl, path);
-		return restTemplate.exchange(apiBaseUrl + path, HttpMethod.DELETE,null,JsonNode.class);
+		return restTemplate.exchange(apiBaseUrl + path, HttpMethod.DELETE, null, JsonNode.class);
 	}
 }

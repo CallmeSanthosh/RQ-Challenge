@@ -7,20 +7,20 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class Employee {
-    @JsonProperty("id")
-    private long id;
+	@JsonProperty("id")
+	private long id;
 
-    @JsonProperty("employee_name")
-    private String employeeName;
+	@JsonProperty("employee_name")
+	private String employeeName;
 
-    @JsonProperty("employee_salary")
-    private int employeeSalary;
+	@JsonProperty("employee_salary")
+	private int employeeSalary;
 
-    @JsonProperty("employee_age")
-    private int employeeAge;
+	@JsonProperty("employee_age")
+	private int employeeAge;
 
-    @JsonProperty("profile_image")
-    private String profileImage;
+	@JsonProperty("profile_image")
+	private String profileImage;
 
 	public long getId() {
 		return id;
@@ -61,5 +61,5 @@ public class Employee {
 	public void setProfileImage(String profileImage) {
 		this.profileImage = profileImage;
 	}
-    
+
 }

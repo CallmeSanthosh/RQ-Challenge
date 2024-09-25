@@ -10,10 +10,16 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 public interface IEmployeeService {
 	public List<Employee> getAllEmployees();
+
 	public List<Employee> getEmployeeByNameSearch(String searchString);
+
 	public Employee getEmployeeById(String id);
+
 	public Integer getHighestSalaryOfEmployees();
+
 	public List<String> getTopTenHighestEarningEmployeeNames();
+
 	public Employee createEmployee(Map<String, Object> employeeInput);
+
 	public String deleteEmployeeById(String id);
 }

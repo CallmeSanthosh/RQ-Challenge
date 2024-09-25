@@ -7,14 +7,14 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class RqChallengeApplication {
-	
+
 	@Bean
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
 
-    public static void main(String[] args) {
-        SpringApplication.run(RqChallengeApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(RqChallengeApplication.class, args);
+	}
 
 }
