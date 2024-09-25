@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "data": 
+    {
+        "id": 1,
+        "employee_name": "John Doe",
+        "employee_salary": 90096,
+        "employee_age": 25,
+        "profile_image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+  "message": "Employee has been fetched successfully!"
+}

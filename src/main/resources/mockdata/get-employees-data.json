@@ -1,0 +1,356 @@
+{
+  "status": "success",
+  "data": [
+    {
+        "id": 1,
+        "employee_name": "John Doe",
+        "employee_salary": 90096,
+        "employee_age": 25,
+        "profile_image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+        "id": 2,
+        "employee_name": "Jane Smith",
+        "employee_salary": 54189,
+        "employee_age": 56,
+        "profile_image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+        "id": 3,
+        "employee_name": "Michael Johnson",
+        "employee_salary": 106802,
+        "employee_age": 38,
+        "profile_image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+        "id": 4,
+        "employee_name": "Emily Davis",
+        "employee_salary": 115955,
+        "employee_age": 48,
+        "profile_image": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+        "id": 5,
+        "employee_name": "David Wilson",
+        "employee_salary": 48857,
+        "employee_age": 24,
+        "profile_image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+        "id": 6,
+        "employee_name": "John Brown",
+        "employee_salary": 103223,
+        "employee_age": 43,
+        "profile_image": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+        "id": 7,
+        "employee_name": "James Martinez",
+        "employee_salary": 72052,
+        "employee_age": 41,
+        "profile_image": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+        "id": 8,
+        "employee_name": "Olivia Garcia",
+        "employee_salary": 49688,
+        "employee_age": 32,
+        "profile_image": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+        "id": 9,
+        "employee_name": "Liam Miller",
+        "employee_salary": 43579,
+        "employee_age": 39,
+        "profile_image": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+        "id": 10,
+        "employee_name": "Emma Lee",
+        "employee_salary": 68225,
+        "employee_age": 50,
+        "profile_image": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+        "id": 11,
+        "employee_name": "William Gonzalez",
+        "employee_salary": 89440,
+        "employee_age": 34,
+        "profile_image": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+        "id": 12,
+        "employee_name": "Mia Anderson",
+        "employee_salary": 33742,
+        "employee_age": 58,
+        "profile_image": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+        "id": 13,
+        "employee_name": "Alexander Thomas",
+        "employee_salary": 34568,
+        "employee_age": 41,
+        "profile_image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+        "id": 14,
+        "employee_name": "Ava Taylor",
+        "employee_salary": 63335,
+        "employee_age": 49,
+        "profile_image": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+        "id": 15,
+        "employee_name": "Benjamin Moore",
+        "employee_salary": 52480,
+        "employee_age": 36,
+        "profile_image": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+        "id": 16,
+        "employee_name": "Isabella Jackson",
+        "employee_salary": 31274,
+        "employee_age": 24,
+        "profile_image": "https://randomuser.me/api/portraits/men/16.jpg"
+    },
+    {
+        "id": 17,
+        "employee_name": "John White",
+        "employee_salary": 61616,
+        "employee_age": 28,
+        "profile_image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+        "id": 18,
+        "employee_name": "Amelia Harris",
+        "employee_salary": 64879,
+        "employee_age": 36,
+        "profile_image": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+        "id": 19,
+        "employee_name": "Henry Clark",
+        "employee_salary": 62473,
+        "employee_age": 59,
+        "profile_image": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+        "id": 20,
+        "employee_name": "Charlotte Lewis",
+        "employee_salary": 87028,
+        "employee_age": 36,
+        "profile_image": "https://randomuser.me/api/portraits/men/20.jpg"
+    },
+    {
+        "id": 21,
+        "employee_name": "Sebastian Robinson",
+        "employee_salary": 40370,
+        "employee_age": 50,
+        "profile_image": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+        "id": 22,
+        "employee_name": "Evelyn Walker",
+        "employee_salary": 79812,
+        "employee_age": 40,
+        "profile_image": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+        "id": 23,
+        "employee_name": "Jack Hall",
+        "employee_salary": 77935,
+        "employee_age": 45,
+        "profile_image": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+        "id": 24,
+        "employee_name": "Abigail Young",
+        "employee_salary": 38530,
+        "employee_age": 25,
+        "profile_image": "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+        "id": 25,
+        "employee_name": "Logan King",
+        "employee_salary": 37554,
+        "employee_age": 55,
+        "profile_image": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+        "id": 26,
+        "employee_name": "Scarlett Wright",
+        "employee_salary": 38238,
+        "employee_age": 39,
+        "profile_image": "https://randomuser.me/api/portraits/men/26.jpg"
+    },
+    {
+        "id": 27,
+        "employee_name": "Noah Green",
+        "employee_salary": 59756,
+        "employee_age": 50,
+        "profile_image": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+        "id": 28,
+        "employee_name": "Grace Scott",
+        "employee_salary": 97369,
+        "employee_age": 57,
+        "profile_image": "https://randomuser.me/api/portraits/men/28.jpg"
+    },
+    {
+        "id": 29,
+        "employee_name": "Elijah Adams",
+        "employee_salary": 48332,
+        "employee_age": 27,
+        "profile_image": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+        "id": 30,
+        "employee_name": "Victoria Nelson",
+        "employee_salary": 96061,
+        "employee_age": 29,
+        "profile_image": "https://randomuser.me/api/portraits/men/30.jpg"
+    },
+    {
+        "id": 31,
+        "employee_name": "Daniel Baker",
+        "employee_salary": 43468,
+        "employee_age": 44,
+        "profile_image": "https://randomuser.me/api/portraits/men/31.jpg"
+    },
+    {
+        "id": 32,
+        "employee_name": "Lily Carter",
+        "employee_salary": 85586,
+        "employee_age": 26,
+        "profile_image": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+        "id": 33,
+        "employee_name": "Matthew Perez",
+        "employee_salary": 89680,
+        "employee_age": 40,
+        "profile_image": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+        "id": 34,
+        "employee_name": "Zoe Turner",
+        "employee_salary": 87760,
+        "employee_age": 52,
+        "profile_image": "https://randomuser.me/api/portraits/men/34.jpg"
+    },
+    {
+        "id": 35,
+        "employee_name": "Samuel Ramirez",
+        "employee_salary": 80089,
+        "employee_age": 29,
+        "profile_image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+        "id": 36,
+        "employee_name": "Chloe Phillips",
+        "employee_salary": 83292,
+        "employee_age": 57,
+        "profile_image": "https://randomuser.me/api/portraits/men/36.jpg"
+    },
+    {
+        "id": 37,
+        "employee_name": "Gabriel Campbell",
+        "employee_salary": 43231,
+        "employee_age": 42,
+        "profile_image": "https://randomuser.me/api/portraits/men/37.jpg"
+    },
+    {
+        "id": 38,
+        "employee_name": "Ella Parker",
+        "employee_salary": 62194,
+        "employee_age": 53,
+        "profile_image": "https://randomuser.me/api/portraits/men/38.jpg"
+    },
+    {
+        "id": 39,
+        "employee_name": "Ryan Evans",
+        "employee_salary": 68631,
+        "employee_age": 60,
+        "profile_image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+        "id": 40,
+        "employee_name": "Sofia Edwards",
+        "employee_salary": 31768,
+        "employee_age": 47,
+        "profile_image": "https://randomuser.me/api/portraits/men/40.jpg"
+    },
+    {
+        "id": 41,
+        "employee_name": "Joshua Collins",
+        "employee_salary": 62100,
+        "employee_age": 53,
+        "profile_image": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    {
+        "id": 42,
+        "employee_name": "Harper Stewart",
+        "employee_salary": 50823,
+        "employee_age": 56,
+        "profile_image": "https://randomuser.me/api/portraits/men/42.jpg"
+    },
+    {
+        "id": 43,
+        "employee_name": "Nathan Cooper",
+        "employee_salary": 44968,
+        "employee_age": 47,
+        "profile_image": "https://randomuser.me/api/portraits/men/43.jpg"
+    },
+    {
+        "id": 44,
+        "employee_name": "Avery Sanchez",
+        "employee_salary": 118054,
+        "employee_age": 49,
+        "profile_image": "https://randomuser.me/api/portraits/men/44.jpg"
+    },
+    {
+        "id": 45,
+        "employee_name": "Mason Morris",
+        "employee_salary": 68569,
+        "employee_age": 22,
+        "profile_image": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+        "id": 46,
+        "employee_name": "Aria Rogers",
+        "employee_salary": 55795,
+        "employee_age": 36,
+        "profile_image": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+        "id": 47,
+        "employee_name": "Isaac Reed",
+        "employee_salary": 33218,
+        "employee_age": 23,
+        "profile_image": "https://randomuser.me/api/portraits/men/47.jpg"
+    },
+    {
+        "id": 48,
+        "employee_name": "Madison Cook",
+        "employee_salary": 89802,
+        "employee_age": 60,
+        "profile_image": "https://randomuser.me/api/portraits/men/48.jpg"
+    },
+    {
+        "id": 49,
+        "employee_name": "Caleb Morgan",
+        "employee_salary": 66511,
+        "employee_age": 45,
+        "profile_image": "https://randomuser.me/api/portraits/men/49.jpg"
+    },
+    {
+        "id": 50,
+        "employee_name": "Penelope Howard",
+        "employee_salary": 47457,
+        "employee_age": 41,
+        "profile_image": "https://randomuser.me/api/portraits/men/50.jpg"
+    }
+],
+  "message": "All employee records have been fetched Successfully!"
+}
