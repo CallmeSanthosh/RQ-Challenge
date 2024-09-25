@@ -66,7 +66,7 @@ public class EmployeeController implements IEmployeeController {
 		return ResponseEntity.ok(Employee);
 	}
 
-	@DeleteMapping("{id}")
+	@DeleteMapping("/{id}")
 	public ResponseEntity<String> deleteEmployeeById(@PathVariable String id) {
 		String employeeName = employeeService.deleteEmployeeById(id);
 		return ResponseEntity.ok(employeeName);
